@@ -21,6 +21,10 @@ echo "A $color $fruit <br>\n"; // A green apple
 
 include 'vars1.php';
 echo "A $color $fruit";
+echo "<br>\n";
+include "connect.php";
+echo MyProject\CONNECT_OK  . "\n";
+echo MyProject\connect() . "\n";
 ?>
 </main>
 <?php
